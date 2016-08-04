@@ -7,13 +7,13 @@ gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
 
 group :production do
-	gem 'pg'
+	gem 'pg', '~> 0.18.4'
 end
 
 
 group :development do
 
-gem 'sqlite3'
+gem 'pg', '~> 0.18.4'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
